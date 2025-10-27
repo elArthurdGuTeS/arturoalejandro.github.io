@@ -1,0 +1,36 @@
+body {
+  box-sizing: border-box;
+}
+.gradient-bg {
+  background: linear-gradient(135deg, #73c2fb 0%, #1e40af 50%, #1e3a8a 100%);
+}
+.card-shadow {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.3s ease;
+}
+.card-shadow:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.timeline-line {
+  background: linear-gradient(to bottom, #73c2fb, #e5e7eb);
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-in {
+  animation: fadeInUp 0.6s ease-out;
+}
+.leckerli-one-regular {
+  font-family: "Leckerli One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
